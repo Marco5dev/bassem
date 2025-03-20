@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bot Verification</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- First verification step -->
+        <div id="imageVerification" class="verification-step active">
+            <h2>Verify you're not a robot</h2>
+            <p>Please select all the robot images</p>
+            <div class="image-grid" id="imageGrid"></div>
+            <button id="verifyImages" class="verify-btn">Verify</button>
+        </div>
+
+        <!-- Second verification step -->
+        <div id="questionVerification" class="verification-step">
+            <h2>One more step</h2>
+            <div id="questionContainer">
+                <p id="question"></p>
+                <div id="answerOptions"></div>
+            </div>
+            <button id="verifyAnswer" class="verify-btn">Submit</button>
+        </div>
+
+        <!-- Home page -->
+        <div id="homePage" class="verification-step">
+            <h1>كسم الخبيث</h1>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
